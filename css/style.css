@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    font-family: "Apercu";
+    /* font-family: "Open Sans", sans-serif, Arial, Helvetica; */
+    list-style: none;
+}
+
+
+/************************** HEADER **************************/
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    background-color: rgba(19, 127, 127, 0);
+    color: #fff;
+    justify-content: space-between;
+    align-content: center;
+    height: 90px;
+    width: 100%;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: -3px 2px 4px #00000075;
+}
+
+
+/* LOGO */
+
+.header-logo {
+    display: block;
+    background: url(/images/TIG-logo.png) no-repeat 100%;
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+}
+
+
+/* NAVBAR MENU */
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+#main-img {
+    display: flex;
+    color: #fdfaf1;
+    background-image: url(/images/lake-clean-scenery-trees-mountains-5000-Wallpapermoderna.jpg);
+    background-position-y: -260px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Apercu";
+}
+
+#main-img h2 {
+    display: block;
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-family: "GROBOLD";
+}
+
+#main-img h4 {
+    display: block;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#main-img button {
+    color: #fdfaf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    border: 0.0625rem solid #fdfaf1;
+    border-radius: 0.3125rem;
+    padding: 1rem;
+    font-weight: 700;
+    max-width: 250px;
+    text-transform: uppercase;
+}
+
+#main-img button:hover {
+    color: #0b0a0a;
+    background: rgba(253, 250, 241, 0.27);
+}
+
+.img-btn {
+    background-color: rgba(14, 5, 5, 0);
+    margin-bottom: 10px !important;
+    text-shadow: 0 0 2px black;
+}
+
+
+/* NAVBAR STYLING STARTS */
+
+#dropdownMenuButton {
+    background-color: inherit;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.9);
+    border: none !important;
+}
+
+.profile-pic {
+    position: relative;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+#color-bar {
+    height: 3px;
+    background: rgb(112, 157, 46);
+}
+
+.footer-icons div {
+    margin-left: 40px;
+}
+
+.icons {
+    margin-right: 17px;
+}
+
+
+/************************** MAIN **************************/
+
+.flex-container {
+    display: flex;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+}
+
+.flex-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    flex: 3;
+    border: 2px solid rgb(112, 157, 46);
+    border-radius: 5px;
+    background-color: rgb(0, 128, 128);
+    color: #fff;
+}
+
+.flex-child h1 {
+    font-family: GROBOLD;
+    margin: 30px;
+}
+
+.flex-child h3 {
+    font-family: "Boldie";
+}
+
+.flex-child p {
+    display: block;
+    height: 300px;
+    margin: 30px;
+}
+
+.flex-child section {
+    display: block;
+    font-size: 30px;
+    top: 85%;
+}
+
+#start-clean {
+    width: 100%;
+    background-image: url(/images/cleaning-landscape.jpg);
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.p-5 {
+    height: 250px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    display: block;
+    top: 85px;
+}
+
+.rounded-circle {
+    height: 75px;
+}
+
+
+/************************** FOOTER **************************/
+
+hr {
+    border: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-top: 1px solid #eee;
+}
+
+.footer-icons {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(180, 100%, 25%);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footers-logo {
+    height: 30px;
+    margin-left: 10px;
+}
